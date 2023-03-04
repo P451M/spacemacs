@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+#name : my-default-main-file-with-gtest
+#key : my-default-main-file-with-gtest
+#contributor : Paul
+# --
+
+#include <gtest/gtest.h>
+#include <iostream>
+
+using namespace std;
+
+bool myFun() {
+     return true;
+  }
+
+int main(int argc, char *argv[]) {
+  return 0;
+}
+
+TEST(MyFunTest, DefaultTest) {
+  EXPECT_EQ(myFun(), true);
+}
