@@ -1,13 +1,13 @@
 (deftheme my-spacemacs-dark
-  "Spacemacs theme, the dark version")
+  "Created 2023-03-04.")
 
 (custom-theme-set-variables
  'my-spacemacs-dark
  '(ansi-color-names-vector ["#0a0814" "#f2241f" "#67b11d" "#b1951d" "#4f97d7" "#a31db1" "#28def0" "#b2b2b2"])
- '(hl-todo-keyword-faces '(("TODO" . "#dc752f") ("NEXT" . "#dc752f") ("THEM" . "#2d9574") ("PROG" . "#4f97d7") ("OKAY" . "#4f97d7") ("DONT" . "#f2241f") ("FAIL" . "#f2241f") ("DONE" . "#86dc2f") ("NOTE" . "#b1951d") ("KLUDGE" . "#b1951d") ("HACK" . "#b1951d") ("TEMP" . "#b1951d") ("FIXME" . "#dc752f") ("XXX+" . "#dc752f") ("\\?\\?\\?+" . "#dc752f")))
+ '(hl-todo-keyword-faces ''(("TODO" . "#dc752f") ("NEXT" . "#dc752f") ("THEM" . "#2d9574") ("PROG" . "#4f97d7") ("OKAY" . "#4f97d7") ("DONT" . "#f2241f") ("FAIL" . "#f2241f") ("DONE" . "#86dc2f") ("NOTE" . "#b1951d") ("KLUDGE" . "#b1951d") ("HACK" . "#b1951d") ("TEMP" . "#b1951d") ("FIXME" . "#dc752f") ("XXX+" . "#dc752f") ("\\?\\?\\?+" . "#dc752f")))
  '(org-fontify-done-headline nil)
  '(org-fontify-todo-headline nil)
- '(pdf-view-midnight-colors '("#b2b2b2" . "gray8")))
+ '(pdf-view-midnight-colors ''("#b2b2b2" . "gray8")))
 
 (custom-theme-set-faces
  'my-spacemacs-dark
@@ -66,7 +66,7 @@
  '(ansi-color-cyan ((((class color) (min-colors 89)) (:background "#28def0" :foreground "#28def0"))))
  '(ansi-color-gray ((((class color) (min-colors 89)) (:background "#b2b2b2" :foreground "#b2b2b2"))))
  '(anzu-mode-line ((((class color) (min-colors 89)) (:foreground "#b1951d" :inherit bold))))
- '(ac-completion-face ((((class color) (min-colors 89)) (:background "#34323e" :foreground "#9a9aba"))))
+ '(ac-completion-face ((((class color) (min-colors 89)) (:underline t :foreground "#4f97d7"))))
  '(avy-lead-face ((((class color) (min-colors 89)) (:background "#293235" :foreground "#67b11d"))))
  '(avy-lead-face-0 ((((class color) (min-colors 89)) (:background "#293235" :foreground "#b1951d"))))
  '(avy-lead-face-1 ((((class color) (min-colors 89)) (:background "#293235" :foreground "#a31db1"))))
@@ -590,7 +590,7 @@
  '(term-color-white ((((class color) (min-colors 89)) (:foreground "#b2b2b2" :background "#b2b2b2"))))
  '(term-color-yellow ((((class color) (min-colors 89)) (:foreground "#b1951d" :background "#b1951d"))))
  '(vterm-color-default ((((class color) (min-colors 89)) (:foreground "#b2b2b2" :background "gray8"))))
- '(vterm-color-black ((((class color) (min-colors 89)) (:foreground "#0a0814" :background "#0a0814"))))
+ '(vterm-color-black ((t (:background "dim gray" :foreground "dim gray"))))
  '(vterm-color-blue ((((class color) (min-colors 89)) (:foreground "#4f97d7" :background "#4f97d7"))))
  '(vterm-color-cyan ((((class color) (min-colors 89)) (:foreground "#28def0" :background "#28def0"))))
  '(vterm-color-green ((((class color) (min-colors 89)) (:foreground "#67b11d" :background "#67b11d"))))
@@ -639,7 +639,6 @@
  '(whitespace-space-before-tab ((((class color) (min-colors 89)) (:background nil :foreground "#b1951d"))))
  '(whitespace-tab ((((class color) (min-colors 89)) (:background nil :foreground "#5d4d7a"))))
  '(whitespace-trailing ((((class color) (min-colors 89)) (:background "#e0211d" :foreground "#dc752f"))))
- '(ac-completion-face ((((class color) (min-colors 89)) (:underline t :foreground "#4f97d7"))))
  '(ffap ((((class color) (min-colors 89)) (:foreground "#b2b2b2"))))
  '(flx-highlight-face ((((class color) (min-colors 89)) (:foreground "#c56ec3" :underline nil))))
  '(icompletep-determined ((((class color) (min-colors 89)) :foreground "#4f97d7")))
